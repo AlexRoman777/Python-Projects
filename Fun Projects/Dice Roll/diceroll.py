@@ -138,7 +138,7 @@ def play_again():
         play_again()
 
 
-def main():
+def main():  # TODO: Ask for type of game and use the standard number of dice for that game. (e.g. Yahtzee = 5 dice)
     clear_terminal()
     nr = input("How many dice do you want to roll? [1-6] ")
     number_of_dice = check_input(nr)
