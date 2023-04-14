@@ -65,3 +65,7 @@ python3 -m pip install pypdf
 Yeah, no license for this one either.
 
 &copy; 2023 [Alex Roman](https://github.com/AlexRoman777). ~~All rights reserved~~. Just kidding...
+
+---
+
+Back to [Python Projects](/README.md)
