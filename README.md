@@ -55,7 +55,7 @@ Read more about it [here](Data-Generator/README.md).
 
 ## Smart Home
 
-A "fictive" smart home project. It consists of a server and multiple clients.
+A "fictive" smart home project. It consists of a server and multiple clients. Users can control the lights, temperature sensor and ON/OFF switch from the home panel. Uses Tkinter for the GUI and sockets for communication.
 
 <img src="Smart-Home/img/full-on.png" alt="Smart Home" width=20%/>
 
