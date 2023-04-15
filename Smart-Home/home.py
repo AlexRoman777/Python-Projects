@@ -18,7 +18,7 @@ def simple_test(a, b):
     return a + b
 
 
-def radio_commands(radio):  # pragma: no cover
+def radio_commands(radio):
     if radio == 1:
         if radio1["bg"] == "blue":
             radio1["text"] = "Lights\nOn"
@@ -44,7 +44,7 @@ def radio_commands(radio):  # pragma: no cover
         client.send(message.encode(FORMAT))
 
 
-def send_command():  # pragma: no cover
+def send_command():
     command = write_area.get()
     history.configure(state=tk.NORMAL)
     history.insert(tk.END, f"{command}\n")
@@ -55,7 +55,7 @@ def send_command():  # pragma: no cover
     client.send(command.encode(FORMAT))
 
 
-def receive():  # pragma: no cover
+def receive():
     while True:
         try:
             message = client.recv(1024).decode(FORMAT)
@@ -70,17 +70,18 @@ def receive():  # pragma: no cover
             break
 
 
-def alive():  # pragma: no cover
+def alive():
     client.send("alive".encode(FORMAT))
     sleep(1)
     client.send(f"{name} reporting for duty".encode(FORMAT))
 
 
-def main():  # pragma: no cover
+def main():
     global client, history, write_area, radio1, radio2, radio3, radio4
 
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
     client.connect((HOST, PORT))
     client.send(name.encode(FORMAT))
     print(f"{name} connected on port: {PORT}")
