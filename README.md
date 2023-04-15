@@ -66,7 +66,7 @@ Read more about it [here](Smart-Home/README.md).
 
 ## GitHub Contributions
 
-A fun project countin the GitHub contributions of the DevOps22 students.
+A fun project counting the GitHub contributions of the DevOps22 students.
 
 <img src="GitHub-Contributions/img/top5.png" alt="Pie Chart" width=20%/>
 
