@@ -7,4 +7,5 @@
       "--max-complexity=15",
       "--lintOnSave=true"
     ],
+    "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
   }
