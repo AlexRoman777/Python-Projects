@@ -110,7 +110,7 @@ def main():
         file.write("\n")
         file.write("---" + "\n\n")
 
-        file.write("# Top 5 - Pie chart" + "\n\n")
+        file.write("## Top 5 - Pie chart" + "\n\n")
         file.write("```mermaid" + "\n")
         file.write("pie title Top 5" + "\n")
         file.write('"' + str(list(top[0].keys())[0]) + '"' + ' : ' + str(list(top[0].values())[0]) + '\n')
