@@ -2,57 +2,51 @@
 
 ---
 
-| Place | User | Contributions |
-| --- | --- | :---: |
-| 1 | AlexRoman777 | 2515 |
-| 2 | PapaPeskwo | 1366 |
-| 3 | mindriddler | 686 |
-| 4 | JonksPanda | 236 |
-| 5 | JarlJakobsson | 216 |
-| 6 | lundgren98 | 187 |
-| 7 | gurraoberg | 127 |
-| 8 | MarioKhalaf | 113 |
-| 9 | davidhasenson | 98 |
-| 10 | rlinddo22 | 93 |
-| 11 | Corn1344 | 78 |
-| 12 | JustOwl | 61 |
-| 13 | Telf92 | 61 |
-| 14 | Sundgren95 | 49 |
-| 15 | miralee94 | 45 |
-| 16 | IsabelValijani | 36 |
-| 17 | AntonOttosson | 31 |
-| 18 | Tolli-txt | 28 |
-| 19 | DanielBrunoMatzui | 27 |
-| 20 | Fradop | 25 |
-| 21 | delu2201 | 22 |
-| 22 | PavelKostyuk | 20 |
-| 23 | IsacGrive | 16 |
-| 24 | CharalamposMoutsios | 16 |
-| 25 | Manibadani | 14 |
-| 26 | maal2202 | 13 |
-| 27 | julianbe93 | 13 |
-| 28 | SamanPetfat | 10 |
-| 29 | fridalundstroms | 10 |
-| 30 | Skygfisk | 9 |
-| 31 | raffiavakian | 8 |
-| 32 | ossonack | 2 |
+| Place | User | Contributions | ^ |
+| --- | --- | :---: | :---: |
+| 1 | Alex Roman | 2580 | 0 |
+| 2 | Tomislav Orlovac | 1366 | 0 |
+| 3 | Fredrik Magnusson | 692 | 0 |
+| 4 | Jonathan Friberg | 236 | 0 |
+| 5 | Jarl Jakobsson | 216 | 0 |
+| 6 | Alexander Lundgren | 187 | 0 |
+| 7 | Gustav Öberg | 127 | 0 |
+| 8 | Mario Khalaf | 113 | 0 |
+| 9 | David Hasenson | 98 | 0 |
+| 10 | Rickard Lindqvist | 93 | 0 |
+| 11 | Fabian Lörstad | 78 | 0 |
+| 12 | Karl Björklund  | 61 | 0 |
+| 13 | Timmy Elf | 61 | 0 |
+| 14 | David Sundgren | 49 | 0 |
+| 15 | Mira Lee | 45 | 0 |
+| 16 | Isabel Valijani | 36 | 0 |
+| 17 | Anton Ottonson | 31 | 0 |
+| 18 | Oskar Tölli | 28 | 0 |
+| 19 | Daniel Bruno Matzui | 27 | 0 |
+| 20 | Hugo Göransson | 25 | 0 |
+| 21 | Dennis Lunnelid | 22 | 0 |
+| 22 | Pavel Kostyuk | 20 | 0 |
+| 23 | Isac Grive | 16 | 0 |
+| 24 | Charalampos Moutsios | 16 | 0 |
+| 25 | Mandana Jahangosha | 14 | 0 |
+| 26 | Martin Alfredson | 13 | 0 |
+| 27 | Julian Bellotto | 13 | 0 |
+| 28 | Saman Petfat | 10 | 0 |
+| 29 | Frida Lundström | 10 | 0 |
+| 30 | Odd Jensen | 9 | 0 |
+| 31 | Raffi Avakian | 8 | 0 |
 
 ---
 
-## Pie chart - Top 10
+## Top 5 - Pie chart
 
 ```mermaid
-pie title GitHub contributions
-"AlexRoman777" : 2515
-"PapaPeskwo" : 1366
-"mindriddler" : 686
-"JonksPanda" : 236
-"JarlJakobsson" : 216
-"lundgren98" : 187
-"gurraoberg" : 127
-"MarioKhalaf" : 113
-"davidhasenson" : 98
-"rlinddo22" : 93
+pie title Top 5
+"Alex Roman" : 2580
+"Tomislav Orlovac" : 1366
+"Fredrik Magnusson" : 692
+"Jonathan Friberg" : 236
+"Jarl Jakobsson" : 216
 ```
 
 ---
