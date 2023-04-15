@@ -10,6 +10,7 @@ Table of Contents:
   - [Calculator](#calculator)
   - [Data Generator](#data-generator)
   - [Smart Home](#smart-home)
+  - [GitHub Contributions](#github-contributions)
 
 ---
 
@@ -27,7 +28,7 @@ Read more about it [here](/PDF-Merger/README.md).
 
 A simple script to simulate rolling a dice. Just for fun when playing board games.
 
-<img src="Fun-Projects/DiceRoll/img/dice.png" alt="Dice " width=20%/>
+<img src="Fun-Projects/DiceRoll/img/dice.png" alt="Dice" width=20%/>
 
 Read more about it [here](Fun-Projects/DiceRoll/README.md).
 
@@ -60,6 +61,16 @@ A "fictive" smart home project. It consists of a server and multiple clients. Us
 <img src="Smart-Home/img/full-on.png" alt="Smart Home" width=20%/>
 
 Read more about it [here](Smart-Home/README.md).
+
+---
+
+## GitHub Contributions
+
+A fun project looking at the GitHub contributions of the DevOps22 students.
+
+<img src="DevOps22/img/contributions.png" alt="Pie Chart" width=20%/>
+
+Read more about it [here](DevOps22/README.md).
 
 ---
 
