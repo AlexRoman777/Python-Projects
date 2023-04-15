@@ -9,4 +9,12 @@ Made while learning Tkinter.
 
 ---
 
+## What I learned
+
+- How to use Tkinter to create a GUI
+- How to use the `eval()` function to evaluate a string as a mathematical expression
+- How to use the `grid()` function to place widgets in a table-like structure
+
+---
+
 Back to [Python Projects](/README.md)
