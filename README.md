@@ -70,6 +70,12 @@ A fun project looking at the GitHub contributions of the DevOps22 students.
 
 <img src="DevOps22/img/contributions.png" alt="Pie Chart" width=20%/>
 
+---
+
+See the last list update and the Pie Chart with Top 5 [here](DevOps22/DevOps22.md).
+
+---
+
 Read more about it [here](DevOps22/README.md).
 
 ---
