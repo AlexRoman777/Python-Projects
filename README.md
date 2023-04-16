@@ -83,7 +83,7 @@ Read more about it [here](GitHub-Contributions/README.md).
 
 ## More Projects
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1000&width=435&lines=Coming+soon;3;2;1;%F0%9F%98%81)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1000&width=435&lines=Coming+soon;3;2;1;%F0%9F%98%81)](https://git.io/typing-svg)
 
 ---
 
