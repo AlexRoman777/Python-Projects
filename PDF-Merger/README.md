@@ -31,11 +31,11 @@ Terminal output.
 ## Usage
 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 ```
 
 ```bash
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 ```bash
