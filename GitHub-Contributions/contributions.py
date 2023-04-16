@@ -8,40 +8,10 @@ import os
 top = []
 
 usernames = [
-    {"Alex Roman": "AlexRoman777"},
-    {"Anton Ottonson": "AntonOttosson"},
-    {"Jarl Jakobsson": "JarlJakobsson"},
-    {"Fredrik Magnusson": "mindriddler"},
-    {"Tomislav Orlovac": "PapaPeskwo"},
-    {"Saman Petfat": "SamanPetfat"},
-    {"Rickard Lindqvist": "rlinddo22"},
-    {"Raffi Avakian": "raffiavakian"},
-    {"Pavel Kostyuk": "PavelKostyuk"},
-    {"Mira Lee": "miralee94"},
-    {"Mario Khalaf": "MarioKhalaf"},
-    {"Mandana Jahangosha": "Manibadani"},
-    {"Martin Alfredson": "maal2202"},
-    {"Alexander Lundgren": "lundgren98"},
-    {"Karl Björklund ": "JustOwl"},
-    {"Julian Bellotto": "julianbe93"},
-    {"Jonathan Friberg": "JonksPanda"},
-    {"Isac Grive": "IsacGrive"},
-    {"Isabel Valijani": "IsabelValijani"},
-    {"Gustav Öberg": "gurraoberg"},
-    {"Frida Lundström": "fridalundstroms"},
-    {"Hugo Göransson": "Fradop"},
-    {"Dennis Lunnelid": "delu2201"},
-    {"David Hasenson": "davidhasenson"},
-    {"Fabian Lörstad": "Corn1344"},
-    {"Charalampos Moutsios": "CharalamposMoutsios"},
-    {"Odd Jensen": "Skygfisk"},
-    {"David Sundgren": "Sundgren95"},
-    {"Timmy Elf": "Telf92"},
-    {"Oskar Tölli": "Tolli-txt"},
-    {"Daniel Bruno Matzui": "DanielBrunoMatzui"}
+    {"Call me if you want the list of usernames"}
 ]
 
-message = '''   
+message = '''
 Welcome to the GitHub contribution counter!
 This program will count the number of contributions for each people in the Nackademin DevOps 22.
 Please note that the program will take up to 2 minutes to run.
@@ -67,7 +37,7 @@ def get_contributions(name, username):
     page_body = str(soup.body)
     key = "h2 class=\"f4 text-normal mb-2\">"
     if key in page_body:
-        number = (page_body[page_body.index(key) + 37:page_body.index(key) + 44])
+        number = (page_body[page_body.index(key) + 37: page_body.index(key) + 44])
         number = int(number.replace(" ", "").replace(",", ""))
         # Add a delay to avoid getting blocked by GitHub again ;)
         sleep(3)
