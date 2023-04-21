@@ -1,11 +1,12 @@
-# [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+# Python Projects
 
 A collection of Python scripts and projects.
 
 Table of Contents:
 
-- [](#)
+- [Python Projects](#python-projects)
   - [PDF Merger](#pdf-merger)
   - [Dice Roll](#dice-roll)
   - [Calculator](#calculator)
