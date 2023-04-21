@@ -1,10 +1,4 @@
-pythtox
+
 Pillow
 flake8
-coverage
-pytest
-pytest-cov
-pytest-mock
-autopep8
-mock
 pypdf
