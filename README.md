@@ -12,11 +12,12 @@ Table of Contents:
   - [Smart Home](#smart-home)
   - [DevOps22 - GitHub Contributions](#devops22---github-contributions)
   - [Battleship](#battleship)
+  - [Snake](#snake)
+  - [More Projects](#more-projects)
   - [Python Virtual Environment](#python-virtual-environment)
     - [Step 1 - Create a virtual environment](#step-1---create-a-virtual-environment)
     - [Step 2 - Activate the virtual environment](#step-2---activate-the-virtual-environment)
     - [Step 3 - Install dependencies](#step-3---install-dependencies)
-  - [More Projects](#more-projects)
 
 ---
 ---
@@ -104,6 +105,24 @@ Read more about it [here](Battleship/README.md).
 ---
 ---
 
+## Snake
+
+The classic snake game, written in Python using Tkinter.
+
+<img src="Snake/img/snake.png" alt="Snake" width=20%/>
+
+Read more about it [here](Snake/README.md).
+
+---
+---
+
+## More Projects
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1000&width=435&lines=Coming+soon;3;2;1;%F0%9F%98%81)](https://git.io/typing-svg)
+
+---
+---
+
 ## Python Virtual Environment
 
 To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path, in the example below, a directory named .venv
@@ -129,11 +148,6 @@ pip install -r requirements.txt
 ```
 
 ---
-
-## More Projects
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1000&width=435&lines=Coming+soon;3;2;1;%F0%9F%98%81)](https://git.io/typing-svg)
-
 ---
 
 Back to [top](#python-projects)
