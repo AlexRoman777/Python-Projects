@@ -1,5 +1,6 @@
 # [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 
+
 A collection of Python scripts and projects.
 
 Table of Contents:
