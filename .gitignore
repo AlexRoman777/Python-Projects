@@ -152,3 +152,7 @@ cython_debug/
 #.idea/
 .vscode/settings.json
 .DS_Store
+.markdownlint.json
+.vscode/settings.json
+.vscode/settings.json
+tox.ini

@@ -1,4 +1,7 @@
-pygame
+
 Pillow
 flake8
 pypdf
+autopep8
+pygame
+

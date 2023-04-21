@@ -1,11 +1,22 @@
 {
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
-    "python.linting.flake8Args": [
-      "--max-line-length=180",
-      "--ignore=E203,W503",
-      "--max-complexity=15",
-      "--lintOnSave=true"
-    ],
-    "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
-  }
+  "editor.defaultFormater": "ms-python.autopep8",
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "none",
+  "python.formatting.autopep8Args": [
+    "--max-line-length=180",
+    "--ignore=E203,W503,C0301",
+    "--max-complexity=15",
+    "--lintOnSave=true"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.flake8Args": [
+    "--max-line-length=180",
+    "--ignore=E203,W503",
+    "--max-complexity=15",
+    "--lintOnSave=true"
+  ],
+  "aws.codeWhisperer.shareCodeWhispererContentWithAWS": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+}
