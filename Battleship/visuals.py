@@ -1,5 +1,6 @@
 '''This module contains all the visuals for the game.'''
 import os
+import subprocess
 import sys
 import time
 
@@ -54,7 +55,7 @@ Good luck!
 
 def clear():
     '''Clears the terminal screen.'''
-    os.system("cls" if os.name == "nt" else "clear")
+    subprocess.call("cls" if os.name == "nt" else "clear", shell=False)
 
 
 def sleep(seconds):
