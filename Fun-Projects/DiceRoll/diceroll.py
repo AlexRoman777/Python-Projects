@@ -1,4 +1,4 @@
-from os import system, name
+
 import random
 
 DICE_ASCII = {
@@ -50,11 +50,6 @@ HEIGHT = len(DICE_ASCII[1])
 # The width of each dice face (including the border)
 WIDTH = len(DICE_ASCII[1][0])
 DICE_SEPARATOR = " "  # The space between each dice face
-
-
-def clear_terminal():
-    '''Clears the terminal screen.'''
-    system("cls" if name == "nt" else "clear")
 
 
 def check_input(nr):
@@ -117,7 +112,7 @@ def diagram(dice_values):
     width = len(row[0])
     header = " You Rolled ".center(width, "~")
 
-    # Colorize the dice faces (red)
+    # Color the dice faces (red)
     for i in range(len(row)):
         row[i] = row[i].replace("●", "\033[1;31m●\033[0;0m")
 
@@ -139,7 +134,6 @@ def play_again():
 
 
 def main():  # TODO: Ask for type of game and use the standard number of dice for that game. (e.g. Yahtzee = 5 dice)
-    clear_terminal()
     nr = input("How many dice do you want to roll? [1-6] ")
     number_of_dice = check_input(nr)
     roll = roll_dice(number_of_dice)
