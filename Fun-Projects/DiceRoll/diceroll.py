@@ -1,5 +1,7 @@
 
 import random
+import os
+import subprocess
 
 DICE_ASCII = {
     1: (
@@ -133,7 +135,13 @@ def play_again():
         play_again()
 
 
+def clear():
+    '''Clears the terminal screen.'''
+    subprocess.call("cls" if os.name == "nt" else "clear", shell=False)
+
+
 def main():  # TODO: Ask for type of game and use the standard number of dice for that game. (e.g. Yahtzee = 5 dice)
+    clear()
     nr = input("How many dice do you want to roll? [1-6] ")
     number_of_dice = check_input(nr)
     roll = roll_dice(number_of_dice)
