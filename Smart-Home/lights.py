@@ -156,38 +156,6 @@ def receive():
         elif message == "turn speakers off":
             for i in [speaker_1, speaker_2, speaker_3, speaker_4]:
                 i.configure(bg=OFF)
-        elif message == "turn all on":
-            for i in [
-                led_1,
-                led_2,
-                led_3,
-                led_4,
-                speaker_1,
-                speaker_2,
-                speaker_3,
-                speaker_4,
-                door,
-                window,
-                garage,
-                vacuum,
-            ]:
-                i.configure(bg=ON)
-        elif message == "turn all off":
-            for i in [
-                led_1,
-                led_2,
-                led_3,
-                led_4,
-                speaker_1,
-                speaker_2,
-                speaker_3,
-                speaker_4,
-                door,
-                window,
-                garage,
-                vacuum,
-            ]:
-                i.configure(bg=OFF)
 
         else:
             print(message)
