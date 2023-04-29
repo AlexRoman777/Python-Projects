@@ -3,8 +3,7 @@ from pypdf import PdfWriter
 from tkinter import filedialog
 from tkinter import Tk
 import logging
-from pathlib import Path
-import os
+
 
 merger = PdfWriter()
 root = Tk()
@@ -53,13 +52,7 @@ def merge_pdf():
         root.destroy()
 
 
-def clear_terminal():
-    '''Clears the terminal for a cleaner look :) '''
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-
-def main():  # TODO: Add parameters for input and output files. so the script can be run from the command line
-    clear_terminal()
+def main():  # TODO: Add parameters for input and output files.
     merge_pdf()
 
 
