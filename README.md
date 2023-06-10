@@ -15,6 +15,7 @@ Table of Contents:
   - [DevOps22 - GitHub Contributions](#devops22---github-contributions)
   - [Battleship](#battleship)
   - [Snake](#snake)
+  - [Wifi Scanner](#wifi-scanner)
   - [More Projects](#more-projects)
   - [Python Virtual Environment](#python-virtual-environment)
     - [Step 1 - Create a virtual environment](#step-1---create-a-virtual-environment)
@@ -114,6 +115,17 @@ The classic snake game, written in Python using Tkinter.
 <img src="Snake/img/snake.png" alt="Snake" width=50%/>
 
 Read more about it [here](Snake/README.md).
+
+---
+---
+
+## Wifi Scanner
+
+A simple script to scan for available WiFi networks.
+
+<img src="Wifi-Scanner/img/wifi-scanner.png" alt="Wifi Scanner" width=50%/>
+
+Read more about it [here](Wifi-Scanner/README.md).
 
 ---
 ---
