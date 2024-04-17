@@ -2,7 +2,7 @@
 
 # Python Projects
 
-A collection of Python scripts and projects.
+A collection of Python scripts and projects. Nothing serios, just for fun and learning purposes.
 
 Table of Contents:
 
@@ -12,17 +12,14 @@ Table of Contents:
   - [Calculator](#calculator)
   - [Data Generator](#data-generator)
   - [Smart Home](#smart-home)
-  - [DevOps22 - GitHub Contributions](#devops22---github-contributions)
   - [Battleship](#battleship)
   - [Snake](#snake)
   - [Wifi Scanner](#wifi-scanner)
-  - [More Projects](#more-projects)
   - [Python Virtual Environment](#python-virtual-environment)
     - [Step 1 - Create a virtual environment](#step-1---create-a-virtual-environment)
     - [Step 2 - Activate the virtual environment](#step-2---activate-the-virtual-environment)
     - [Step 3 - Install dependencies](#step-3---install-dependencies)
 
----
 ---
 
 ## PDF Merger
@@ -34,7 +31,6 @@ A simple script to merge multiple PDF files into one PDF file.
 Read more about it [here](/PDF-Merger/README.md).
 
 ---
----
 
 ## Dice Roll
 
@@ -44,7 +40,6 @@ A simple script to simulate rolling a dice. Just for fun when playing board game
 
 Read more about it [here](Fun-Projects/DiceRoll/README.md).
 
----
 ---
 
 ## Calculator
@@ -56,7 +51,6 @@ A simple calculator that can do basic math operations. Made while learning Tkint
 Read more about it [here](Fun-Projects/Calculator/README.md).
 
 ---
----
 
 ## Data Generator
 
@@ -66,7 +60,6 @@ A script to generate random user data for populating different projects, like da
 
 Read more about it [here](Data-Generator/README.md).
 
----
 ---
 
 ## Smart Home
@@ -78,15 +71,6 @@ A "fictive" smart home project. It consists of a server and multiple clients. Us
 Read more about it [here](Smart-Home/README.md).
 
 ---
----
-
-## DevOps22 - GitHub Contributions
-
-A fun project counting the GitHub contributions of the DevOps22 students. The script is run every day at 00:00 and the results are saved in a JSON file. The script also generates a Pie Chart with the Top 5 students with the most contributions. More to come... 🙂
-
-<img src="GitHub-Contributions/img/top5.png" alt="Pie Chart" width=50%/>
-
----
 
 See the table and the chart with Top 5 [here](GitHub-Contributions/DevOps22.md).
 
@@ -95,7 +79,6 @@ Read more about it [here](GitHub-Contributions/README.md).
 For the last update, check this [page](https://alexroman777.github.io/DevOps22/).
 
 ---
----
 
 ## Battleship
 
@@ -103,9 +86,8 @@ A simple Battleship game made using Pygame. The game is played against AI. The A
 
 <img src="Battleship/img/won.png" alt="Battleship" width=50%/>
 
-Read more about it [here](Battleship/README.md). 
+Read more about it [here](Battleship/README.md).
 
----
 ---
 
 ## Snake
@@ -117,7 +99,6 @@ The classic snake game, written in Python using Tkinter.
 Read more about it [here](Snake/README.md).
 
 ---
----
 
 ## Wifi Scanner
 
@@ -127,14 +108,6 @@ A simple script to scan for available WiFi networks.
 
 Read more about it [here](Wifi-Scanner/README.md).
 
----
----
-
-## More Projects
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1000&width=435&lines=Coming+soon;3;2;1;%F0%9F%98%81)](https://git.io/typing-svg)
-
----
 ---
 
 ## Python Virtual Environment
@@ -161,7 +134,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
 ---
 
 Back to [top](#python-projects)
